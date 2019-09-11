@@ -1,6 +1,6 @@
 
 <HTML><HEAD>
-<TITLE> γεβξδ 9: JSP Expressions </TITLE>
+<TITLE> Γ£Γ₯Γ’Γ®Γ€ 9: JSP Expressions </TITLE>
 <%@ page contentType="text/html; charset=ISO-8859-8" %>
 <!--META content="text/html; charset=windows-1255" http-equiv=Content-Type-->
 <LINK href="css/styles.css" rel=stylesheet title=programing type=text/css>
@@ -12,7 +12,7 @@
 
 
 <table cellpadding="0" cellspacing="0" border="0">
-<tr><td height="80"></td></tr>
+<tr><td height="120"></td></tr>
 </table>
 <table cellpadding="0" cellspacing="0" border="0" width="100%" bgcolor="#2D5F84">
 <td  width="100%" align="right" class="topB">&nbsp;</td>
@@ -38,7 +38,7 @@
 				<tr>
 				<td valign="top" dir="rtl" align="right" width="448">
 
-				<b class="title1"><span lang="he">γεβξδ </span>
+				<b class="title1"><span lang="he">Γ£Γ₯Γ’Γ®Γ€ </span>
                 <span lang="en-us">9:</span><span lang="he"> </span>
                 <span lang="en-us" dir ="ltr">JSP Expressions</span><span lang="he">&nbsp;&nbsp; </span></b><br>
 				</td>
@@ -51,31 +51,31 @@
 
     <p dir="rtl"><span dir="rtl">&nbsp;<br></span>
     <span lang="HE" dir="rtl" style="font-size: 12.0pt; font-family: Arial; color: black">
-    δ </span><span style="font-size: 12.0pt; font-family: Arial; color: black">
-    <span dir="rtl">JSP</span><span lang="HE" dir="rtl"> ωξιιφψ ΰϊ δγσ δπεληι
-    ςεωδ ωιξεω α </span><span dir="rtl">JSP expressions <span lang="HE">τωεθιν
-    λβεο ζδ δξερισ ΰϊ ζξο δβιωδ ΰμ δγσ ελξε λο ξψΰδ ωιξεω αξωϊπιν ξεβγψιν ξψΰω :</span>request,
+    Γ€ </span><span style="font-size: 12.0pt; font-family: Arial; color: black">
+    <span dir="rtl">JSP</span><span lang="HE" dir="rtl"> ΓΉΓ®Γ©Γ©ΓΆΓΈ Γ ΓΊ Γ€Γ£Γ³ Γ€Γ°Γ₯Γ«Γ§Γ©
+    Γ²Γ₯ΓΉΓ€ ΓΉΓ©Γ®Γ₯ΓΉ Γ‘ </span><span dir="rtl">JSP expressions <span lang="HE">Γ΄ΓΉΓ₯Γ¨Γ©Γ­
+    Γ«Γ’Γ₯Γ― Γ¦Γ€ Γ€Γ®Γ₯Γ±Γ©Γ³ Γ ΓΊ Γ¦Γ®Γ― Γ€Γ’Γ©ΓΉΓ€ Γ Γ¬ Γ€Γ£Γ³ Γ₯Γ«Γ®Γ₯ Γ«Γ― Γ®ΓΈΓ Γ€ ΓΉΓ©Γ®Γ₯ΓΉ Γ‘Γ®ΓΉΓΊΓ°Γ©Γ­ Γ®Γ₯Γ’Γ£ΓΈΓ©Γ­ Γ®ΓΈΓ ΓΉ :</span>request,
     session .</span></span><p dir="rtl"><span dir="rtl"><font size="3">
-    <span style="font-family: Arial"><b>δτςμδ</b>: μηυ ςμ λτϊεψ δ-<span lang="en-us">Refresh</span>
-    λγι μψΰεϊ ΰϊ δζξο δπεληι ξωϊπδ.</span></font></span><span dir="rtl" style="font-size: 12.0pt; font-family: Arial; color: black"><span lang="en-us">&nbsp;&nbsp;&nbsp;
+    <span style="font-family: Arial"><b>Γ€Γ΄Γ²Γ¬Γ€</b>: Γ¬Γ§Γ΅ Γ²Γ¬ Γ«Γ΄ΓΊΓ₯ΓΈ Γ€-<span lang="en-us">Refresh</span>
+    Γ«Γ£Γ© Γ¬ΓΈΓ Γ₯ΓΊ Γ ΓΊ Γ€Γ¦Γ®Γ― Γ€Γ°Γ₯Γ«Γ§Γ© Γ®ΓΉΓΊΓ°Γ€.</span></font></span><span dir="rtl" style="font-size: 12.0pt; font-family: Arial; color: black"><span lang="en-us">&nbsp;&nbsp;&nbsp;
     </span>&nbsp;&nbsp;&nbsp; </span><span dir="rtl"><br>
     </span><br>
 
  <UL>
-<LI><b><span lang="he"><font size="3">ζξο πεληι</font></span><font size="3">:<span dir="ltr"> <%= new java.util.Date() %>
+<LI><b><span lang="he"><font size="3">Γ¦Γ®Γ― Γ°Γ₯Γ«Γ§Γ©</font></span><font size="3">:<span dir="ltr"> <%= new java.util.Date() %>
 </span>
 </font></b>
 <LI dir="rtl">
-<p dir="rtl"><b><font size="3">δ-<span dir="ltr">hostname</span> ωμκ:<span dir="ltr"> <%= request.getRemoteHost() %>
+<p dir="rtl"><b><font size="3">Γ€-<span dir="ltr">hostname</span> ΓΉΓ¬Γͺ:<span dir="ltr"> <%= request.getRemoteHost() %>
 </span></font></b>
-<LI><b><span lang="he"><font size="3">ξρτψ ζιδει ωμ δ</font></span><font size="3">-<span dir="ltr"> session
-</span>ωμκ<span lang="he">&nbsp;</span>: <%= session.getId() %> </font></b>
+<LI><b><span lang="he"><font size="3">Γ®Γ±Γ΄ΓΈ Γ¦Γ©Γ€Γ₯Γ© ΓΉΓ¬ Γ€</font></span><font size="3">-<span dir="ltr"> session
+</span>ΓΉΓ¬Γͺ<span lang="he">&nbsp;</span>: <%= session.getId() %> </font></b>
 <LI dir="rtl">
-<p dir="rtl"><b><span lang="he"><font size="3">ων δωψϊ</font></span><font size="3">:<span dir="ltr"> <%= request.getServerName() %>
+<p dir="rtl"><b><span lang="he"><font size="3">ΓΉΓ­ Γ€ΓΉΓΈΓΊ</font></span><font size="3">:<span dir="ltr"> <%= request.getServerName() %>
 </span>
 </font></b>
-<LI><b><span lang="he"><font size="3">δ-</font></span><font size="3"><span dir="ltr"> port</span><span lang="he"><span dir="ltr">
-</span>ωμ δωψϊ</span>:<span dir="ltr"> <%= request.getServerPort() %> </span> </font></b>
+<LI><b><span lang="he"><font size="3">Γ€-</font></span><font size="3"><span dir="ltr"> port</span><span lang="he"><span dir="ltr">
+</span>ΓΉΓ¬ Γ€ΓΉΓΈΓΊ</span>:<span dir="ltr"> <%= request.getServerPort() %> </span> </font></b>
 </UL>
 
 				</td></tr>
